@@ -1,3 +1,5 @@
+cd custom
+
 kubectl apply -k ./
 kubectl apply -f wordpress-virtualservice.yaml
 kubectl get all     
